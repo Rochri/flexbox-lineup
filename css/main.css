@@ -25,13 +25,14 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #00070e;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #00070e;
     text-shadow: none;
+    
 }
 
 /*
@@ -97,7 +98,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
 }
 
@@ -119,15 +120,17 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1em;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
-
+.div-1, .div-2 {
+    border-right: solid 0.5px grey;
+}
 
 
 
